@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="hero">
+        <video controls autoplay  muted>
+            <source src="./volume/109821-685694725_small.mp4" type="video/mp4">
+        </video>
+
+        <div class="content">
+            <div class="container">
+                <section>
+                    <div class="focus-body">
+                        <h1>FOCUS MOOD</h1>
+                        <div>You can listen to music while you work to make it easier for you to focus.</div>
+                        <div>The phone distracted you <span id="count">0</span> times.</div>
+                        <button id="button-one">Click Here</button>
+                        <div class="icons">
+                            <i id="rainIcon" class="fa-solid fa-cloud"></i>
+                            <audio id="rain" controls>
+                                <source src="./volume/yagmur-sesi-rain-ambient-178433.mp3" type="audio/mp3">
+                            </audio>
+                            <i id="pianoIcon" class="fa-solid fa-moon"></i>
+                            <audio id="piano" controls>
+                                <source src="./volume/inspirational-uplifting-calm-piano-254764.mp3" type="audio/mp3">
+                            </audio>
+                            <i id="meditationIcon" class="fa-solid fa-heart"></i>
+                            <audio id="meditation" controls>
+                                <source src="./volume/cozy-lofi-beat-split-memmories-248205.mp3" type="audio/mp3">
+                            </audio>
+                        </div>
+                        <input id="volumeInput" type="range"/>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    
+ <script src="script.js"></script>
+</body>
+</html>
